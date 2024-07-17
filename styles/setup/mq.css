@@ -45,7 +45,7 @@
 }
 
 /*Medium*/
-@media(min-width: 960px) {
+@media(min-width: 961px) {
     .main-layout {
         display: grid;
         grid-template-columns:

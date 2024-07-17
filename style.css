@@ -1,19 +1,19 @@
 
 /*setup*/
-@import url(/styles/setup/typography.css);
-@import url(/styles/setup/vars.css);
+@import url(../styles/setup/typography.css);
+@import url(../styles/setup/vars.css);
 /*basics*/
-@import url(/styles/basics/layout.css);
-@import url(/styles/basics/base.css);
-@import url(/styles/basics/helpers.css);
+@import url(../styles/basics/layout.css);
+@import url(../styles/basics/base.css);
+@import url(../styles/basics/helpers.css);
 
 /*CMPS*/
-@import url(/styles/cmps/main-header.css);
-@import url(/styles/cmps/main-content.css);
-@import url(/styles/cmps/footer.css);
-@import url(/styles/cmps/bottom-nav.css);
+@import url(../styles/cmps/main-header.css);
+@import url(../styles/cmps/main-content.css);
+@import url(../styles/cmps/footer.css);
+@import url(../styles/cmps/bottom-nav.css);
 
-@import url(/styles/setup/mq.css);
+@import url(../styles/setup/mq.css);
 *{
     box-sizing: border-box
 }
