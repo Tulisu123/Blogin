@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main-layout">
+
+    <div class="main-screen" onclick="toggleMenu()"></div>
+
+    <header class="main-layout full">
+        <div class="header-content flex space-between align-center">
+            <div class="logo">Blogin</div>
+            <div class="nav">
+                <ul class="clean-list grid">
+                    <li value="journal"><a href="#">Journal</a></li>
+                    <li value="about"><a href="#">About</a></li>
+                    <li value="work"><a href="#">Work</a></li>
+                    <li value="contact"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button class="btn-toggle-menu" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+    <div class="main-content grid">
+        <div class="card">
+            <img src="/images/001.png" alt="">
+            <h2 class="title">Duis aute irure dolor in <br> henderit in voluptate.</h2>
+            <p class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea
+                commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                irure
+                dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button class="continue-btn">Continue Reading <span class="arrow">&#8594;</span></button>
+        </div>
+        <div class="card">
+            <img src="/images/002.png" alt="">
+            <h2 class="title">Duis aute irure dolor in <br> henderit in voluptate.</h2>
+            <p class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea
+                commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                irure
+                dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button class="continue-btn">Continue Reading <span class="arrow">&#8594;</span></button>
+        </div>
+        <div class="card">
+            <img src="/images/003.png" alt="">
+            <h2 class="title">Duis aute irure dolor in <br> henderit in voluptate.</h2>
+            <p class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea
+                commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Duis aute
+                irure
+                dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button class="continue-btn">Continue Reading <span class="arrow">&#8594;</span></button>
+        </div>
+
+    </div>
+    <div class="bottom-nav flex space-between align-center">
+        <button class="prevnext-btn clear-btn"><span class="prev-arrow">&#8592;</span> Previous</button>
+        <button class="prevnext-btn clear-btn">Next <span class="next-arrow">&#x2192;</span></button>
+    </div>
+    <div class="footer full grid justify-center">
+        <div class="logo">Blogin</div>
+        <p class="rights">Ⓒ 2024 Blogin.com - All Rights Reserved - Find more free Templates at <span
+                class="web">Pixelhint.com<span></span></p>
+        <ul class="footer-social clean-list">
+            <li><a href=""><img class="facebook-icon" src="/images/facebook.png" alt=""></a></li>
+            <li><a href=""><img class="twitter-icon" src="/images/twitter.png" alt=""></a></li>
+            <li><a href=""><img class="be-icon" src="/images/be.png" alt=""></a></li>
+            <li><a href=""><img class="world-icon" src="/images/world.png" alt=""></a></li>
+        </ul>
+    </div>
+    <script>
+        function toggleMenu(){
+            console.log('clicked')
+            document.body.classList.toggle('menu-open');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.footer{
+    background-color: RGBA(248, 248, 248, 1);
+}
+.footer .rights{
+    color: #A6A6A6;
+    width: 524px;
+    height: 12px;
+    font-size: 13px;
+}
+
+.footer .web{
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer ul li{
+    background-color: rgba(229, 229, 229, 1);
+    width: 43px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li:hover{
+    background-color: rgba(81, 111, 173, 1);
+}
+
+.footer .facebook-icon{
+    width: 11px;
+    height: 18px;
+}
+
+.footer .twitter-icon{
+    width: 18px;
+    height: 16px;
+}
+
+.footer .be-icon{
+    width: 18px;
+    height: 13px;
+}
+
+.footr .world-icon{
+    width: 16px;
+    height: 16px;
+}
+
+

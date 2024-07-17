@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #606060;
+    --title-color: #4F4E4E;
+    --header-color:rgba(41, 41, 41, 1);
+    --header-text-color: #FFFFFF;
+    --nav-text-color-hover:#58C93A;
+    --border-color:#E1E0E0;
+    --btn-hover-color:rgba(88, 201, 58, 1);
+    --btn-color:rgba(194, 194, 194, 1);
+    --prevnext-btns-color:#818181;
+
+
+    /*Header height*/
+    --header-height:100px;
+}

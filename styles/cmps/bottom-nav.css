@@ -1,0 +1,14 @@
+.bottom-nav{
+    border:1px solid var( --border-color);
+    border-top:none;
+    height: 50px;
+}
+
+.bottom-nav button{
+    width: 95px;
+    height: 14px;
+    font-family: lato-bold;
+    text-transform: uppercase;
+    color: var(--prevnext-btns-color);
+    cursor: pointer;
+}

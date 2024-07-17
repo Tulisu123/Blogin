@@ -1,0 +1,53 @@
+.main-content{
+    padding-top:30px;
+    border:1px solid var( --border-color);
+}
+
+.main-content .title{
+    margin: 0;
+    color:var(--title-color);
+    text-transform: uppercase;
+}
+
+.main-content .content{
+    color: var(--primary-color);
+}
+
+.main-content .continue-btn{
+    background: none;
+    width: 189px;
+    height: 43px;
+    border: 2px solid var(--btn-color);
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: bold;
+    color:var(--btn-color);
+    cursor:pointer;
+}
+.main-content .continue-btn:hover {
+    color: var(--btn-hover-color);
+    border-color: var(--btn-hover-color);
+    width: calc(189px + 24px); /*making room for the arrow*/
+}
+
+.main-content .continue-btn:hover .arrow {
+    display:inline;
+}
+
+.main-content .arrow{
+    width: 4px;
+    display: none;
+}
+
+
+
+
+
+.main-screen {
+    position: fixed;
+    inset: 0;
+    cursor: pointer;
+    pointer-events: none;
+
+    transition: background-color 0.6s;
+}

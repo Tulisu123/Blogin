@@ -1,0 +1,39 @@
+/*main-layout*/
+
+.main-layout > *:not(.full){
+    grid-column: 2;
+}
+
+.main-layout > .full {
+    grid-column: 1 / -1;
+}
+
+/*header - layout*/
+
+/*main-content layout*/
+.main-content{
+    gap:70px;
+    padding-bottom: 60px;
+}
+
+/*footer-layout*/
+.footer .footer-social{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+/*why justify content  on footer .footer-social doesnt work for footer children?*/
+.footer{
+    grid-auto-rows: 80px 50px 50px;
+}
+
+.footer .logo{
+    justify-self: center;
+}
+
+.footer .web{
+    justify-self: center;
+}
+
